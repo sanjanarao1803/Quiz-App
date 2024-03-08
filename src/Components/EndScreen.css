@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+}
+
+.EndScreen{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 1rem;
+  background-image: url(bg1.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  padding: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.EndScreen h1{
+  font-size: 4rem;
+}
+
+.EndScreen button {
+  width: 30rem;
+  height: 5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+
+}
+
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}

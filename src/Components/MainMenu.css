@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
+.Menu{
+  width: 50rem;
+  height: 50rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(bg1.png);
+  align-items: center;
+  color: rgb(0, 0, 0);
+  padding: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.Menu h1{
+  font-size: 4rem;
+}
+
+
+.Menu button {
+  width: 30rem;
+  height: 5rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+
+}
+
+@media(max-width:998px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+}
+
